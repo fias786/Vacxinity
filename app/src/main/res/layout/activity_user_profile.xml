@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".accounts.UserProfile">
+
+    <ProgressBar
+        android:id="@+id/progressBarSetting"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:visibility="gone"/>
+
+    <RelativeLayout
+        android:id="@+id/formalDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+    <ImageView
+        android:id="@+id/backgroundImage"
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginTop="10dp"
+        android:scaleType="centerCrop"
+        />
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/userImage"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="165dp"
+        app:civ_border_color="@android:color/white"
+        app:civ_border_width="4dp"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/profileName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/userImage"
+        android:layout_marginTop="20dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text="" />
+    <TextView
+        android:id="@+id/ProfileEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_below="@+id/profileName"
+        android:layout_marginTop="0dp"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:text=""
+        />
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/formalDetails">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/change_personal_details"
+            android:textSize="20sp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="10dp"/>
+
+        <ImageView
+            android:id="@+id/EditAll"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:background="@android:drawable/ic_menu_edit"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="30dp"
+            />
+
+
+    <RelativeLayout
+        android:id="@+id/EditName"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/editNameLogo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginStart="20dp"
+            app:civ_border_width="2dp"
+            app:civ_border_color="@android:color/black"/>
+        <TextView
+            android:id="@+id/SettingName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/editNameLogo"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text=""
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/EditGender"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/EditName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/editGenderLogo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/ic_account_circle_black"
+            android:layout_marginStart="20dp"/>
+        <TextView
+            android:id="@+id/SettingGender"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/editGenderLogo"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text=""
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/EditAddress"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/EditGender"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/editAddressLogo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/gps_marker"
+            android:layout_marginStart="20dp"/>
+        <TextView
+            android:id="@+id/SettingAddress"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/editAddressLogo"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text=""
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/EditPinCode"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/EditAddress"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/editPinLogo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/aadhaar_icon"
+            android:layout_marginStart="20dp"/>
+        <TextView
+            android:id="@+id/SettingPinCode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/editPinLogo"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text=""
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/EditPhone"
+        android:layout_marginTop="10dp"
+        android:layout_below="@+id/EditPinCode"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/editPhoneLogo"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:background="@drawable/phone"
+            android:layout_marginStart="20dp"/>
+        <TextView
+            android:id="@+id/SettingPhone"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toEndOf="@+id/editPhoneLogo"
+            android:layout_marginStart="10dp"
+            android:textStyle="bold"
+            android:textSize="18sp"
+            android:text=""
+            android:layout_centerVertical="true"/>
+
+
+    </RelativeLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>
