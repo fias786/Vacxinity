@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".ui.dashboard.DashboardFragment">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Vaccination against Covid-19"
+        android:textSize="40sp"
+        android:layout_margin="10dp"
+        android:textStyle="bold"
+        android:textColor="#3949AB"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="160dp"
+            android:layout_height="180dp"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            android:backgroundTint="@android:color/holo_blue_bright"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:text="Check"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:drawablePadding="0dp"
+                    android:backgroundTint="@android:color/white"
+                    android:paddingStart="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:drawableStart="@drawable/pill"
+                    android:background="@drawable/circle_shape"
+                    android:textSize="22sp"/>
+
+                <TextView
+                    android:id="@+id/n1"
+                    android:layout_marginTop="80dp"
+                    android:text="Injection N1"
+                    android:textSize="25sp"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/Date"
+                    android:layout_below="@+id/n1"
+                    android:layout_width="wrap_content"
+                    android:textSize="22sp"
+                    android:text="10.4.2021"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:textColor="@color/white"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="160dp"
+            android:layout_height="180dp"
+            app:cardCornerRadius="20dp"
+            android:layout_margin="10dp"
+            android:background="@color/white"
+            app:cardElevation="10dp">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent">
+
+                <TextView
+                    android:layout_width="140dp"
+                    android:layout_height="40dp"
+                    android:text="Wait for"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:drawablePadding="0dp"
+                    android:backgroundTint="@android:color/holo_blue_bright"
+                    android:paddingStart="10dp"
+                    android:layout_centerHorizontal="true"
+                    android:drawableStart="@drawable/pill"
+                    android:background="@drawable/circle_shape"
+                    android:textSize="22sp"/>
+
+                <TextView
+                    android:id="@+id/n2"
+                    android:layout_marginTop="80dp"
+                    android:text="Injection N2"
+                    android:textSize="25sp"
+                    android:textColor="#3949AB"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"/>
+                <TextView
+                    android:id="@+id/nextDate"
+                    android:layout_below="@+id/n2"
+                    android:layout_width="wrap_content"
+                    android:textSize="22sp"
+                    android:textColor="#3949AB"
+                    android:text="10.5.2021"
+                    android:textStyle="bold"
+                    android:layout_marginStart="10dp"
+                    android:layout_height="wrap_content"/>
+
+            </RelativeLayout>
+
+        </com.google.android.material.card.MaterialCardView>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Health diary"
+        android:textStyle="bold"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:textSize="35sp"
+        android:textColor="#3949AB" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="10dp"
+        android:textSize="20sp"
+        android:textColor="#3949AB"
+        android:text="Please complete your self-observation diary if you experience any symptoms after vaccination."
+        android:layout_height="wrap_content"/>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        app:cardElevation="10dp"
+        android:backgroundTint="#4F63EA"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:id="@+id/EditDate"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_margin="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/cutout_a"/>
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Edit Scheduled Date"
+                android:textColor="@color/white"
+                android:textSize="23sp"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_forward_arrow"/>
+
+        </LinearLayout>
+    </com.google.android.material.card.MaterialCardView>
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginStart="10dp"
+        app:cardElevation="10dp"
+        android:backgroundTint="#2AACEC"
+        app:cardCornerRadius="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:layout_margin="10dp"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/cutout_b"/>
+
+            <TextView
+                android:layout_marginTop="12dp"
+                android:layout_marginStart="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="View medical data"
+                android:textColor="@color/white"
+                android:textSize="25sp"/>
+
+            <ImageView
+                android:layout_width="50dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginStart="10dp"
+                android:layout_height="50dp"
+                android:src="@drawable/ic_forward_arrow"/>
+
+        </LinearLayout>
+
+    </com.google.android.material.card.MaterialCardView>
+</LinearLayout>
