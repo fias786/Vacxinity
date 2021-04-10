@@ -2,22 +2,39 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.sharnoxz.vacxinity">
 
+    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+
     <application
         android:allowBackup="true"
-        android:icon="@mipmap/ic_launcher"
+        android:icon="@drawable/applogo1"
         android:label="@string/app_name"
-        android:roundIcon="@mipmap/ic_launcher_round"
+        android:roundIcon="@drawable/applogo1"
         android:supportsRtl="true"
+        android:usesCleartextTraffic="true"
         android:theme="@style/Theme.Vacxinity">
+        <activity android:name=".Scheduling"></activity>
+        <activity android:name=".Vaccination" />
         <activity
             android:name=".MainActivity"
-            android:label="@string/app_name">
+            android:label="@string/app_name" />
+        <activity
+            android:name=".accounts.SplashScreen"
+            android:theme="@style/SplashTheme">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".ui.settings.WebViewActivity" />
+        <activity android:name=".accounts.forgetpassword" />
+        <activity android:name=".accounts.login" />
+        <activity android:name=".accounts.EditUserDetails" />
+        <activity android:name=".accounts.signup" />
+        <activity android:name=".accounts.UserData" />
+        <activity android:name=".accounts.UserProfile" />
     </application>
 
 </manifest>
