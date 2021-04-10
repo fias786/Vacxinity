@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "797690004041",
+    "project_id": "vacxinity",
+    "storage_bucket": "vacxinity.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:797690004041:android:ff074b625ad609d2a7b598",
+        "android_client_info": {
+          "package_name": "com.sharnoxz.vacxinity"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "797690004041-lbbtr43o31oickahdr53bdmcoor1ni4k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD153AuQVJ3o_CSjrC2u1Eb4rlGyqzbpTk"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "797690004041-lbbtr43o31oickahdr53bdmcoor1ni4k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
