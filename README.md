@@ -112,7 +112,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- DEMO -->
 ## Demo Video Link:
-  <a href="https://youtu.be/zl2sc85In1w">View here</a>
+  <a href="#">View here</a>
 
 <!-- PRESENTATION -->
 ## Presentation Link:
@@ -149,5 +149,5 @@ Team Name: <b>SharnoxZ</b>
 ### Made at:
 <a href="https://hack36.com"> <img src="http://bit.ly/BuiltAtHack36" height=20px> </a>
 
-### Track : E-Administration
+### Track : Health Tech
 
