@@ -146,8 +146,5 @@ Team Name: <b>SharnoxZ</b>
 
 - [Developer Docs](https://developer.android.com/docs) & others :)
 
-### Made at:
-<a href="https://hack36.com"> <img src="http://bit.ly/BuiltAtHack36" height=20px> </a>
-
 ### Track : Health Tech
 
