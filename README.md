@@ -118,18 +118,12 @@ Distributed under the MIT License. See `LICENSE` for more information.
 <!-- CONTACT -->
 ## Contact
 
-This project is maintained by ➡️ [Pratyay Banerjee](https://github.com/Neilblaze) ⚡,  [Saif Ali](https://github.com/fias786) 😎
-
-
-## Contributors:
-
 Team Name: <b>SharnoxZ</b>
 
 > Team Members :-
 - [Pratyay Banerjee](https://github.com/Neilblaze)
 - [Saif Ali](https://github.com/fias786/)
 - [Sarthak Chakraborty](https://github.com/TheoDnJLo)
-- [Sandipan Dey](https://github.com/sandipndev)
 
 <br />
 <p align="center">
