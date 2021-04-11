@@ -112,7 +112,7 @@ Distributed under the MIT License. See `LICENSE` for more information.
 
 <!-- DEMO -->
 ## Demo Video Link:
-  <a href="#">Coming Soon</a>
+  <a href="https://youtu.be/zl2sc85In1w">View here</a>
 
 <!-- PRESENTATION -->
 ## Presentation Link:
