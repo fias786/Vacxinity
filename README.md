@@ -110,10 +110,6 @@ Contributions are what make the open source community such an amazing place to b
 
 Distributed under the MIT License. See `LICENSE` for more information.
 
-<!-- DEMO -->
-## Demo Video Link:
-  <a href="#">View here</a>
-
 <!-- PRESENTATION -->
 ## Presentation Link:
   <a href="https://docs.google.com/presentation/d/18afJtSaIlaCDOOBr6mDjPKHSsWl4hyYu8AuVqulKQEw/edit#slide=id.gcf6f5530dc_7_447"> 𝐏𝐫𝐨𝐣𝐞𝐜𝐭 - 𝐕𝐚𝐜𝐱𝐢𝐧𝐢𝐭𝐲 </a>
